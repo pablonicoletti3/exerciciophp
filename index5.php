@@ -12,7 +12,7 @@
      <button type="submit">testar></button>
     </form>
     <?php
-    $umero = $_GET['number'];
+    $numero = $_GET['number'];
     if ($numero % 2 == 0)
     echo "$numero é par";
     else 
